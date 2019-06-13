@@ -7,4 +7,4 @@ cp -r /fonts-default/* /opt/collaboraoffice6.0/share/fonts/truetype/
 perl -pi -e "s/en_US/en_US pl_PL/g" /start-libreoffice.sh
 
 cd /
-./start-libreoffice.sh
+bash start-libreoffice.sh
