@@ -40,7 +40,7 @@ docker run mrcnpdlk/collabora-custom:1.0.0 bash
 
 #### Environment Variables
 
-* `domain` - regexp for domains whith could connect do collabora service
+* `domain` - regexp for domains which could connect do collabora service
 * `username`
 * `password`
 
