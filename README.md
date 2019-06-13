@@ -1,6 +1,7 @@
 # mrcnpdlk/collabora-custom
 
-Collabora image with fonts and pl_PL dictionary support/
+Collabora image with fonts and pl_PL dictionary support.
+Project based on [collabora/code](https://hub.docker.com/r/collabora/code).
 
 ## Getting Started
 
@@ -39,7 +40,9 @@ docker run mrcnpdlk/collabora-custom:1.0.0 bash
 
 #### Environment Variables
 
-no env
+* `domain` - regexp for domains whith could connect do collabora service
+* `username`
+* `password`
 
 #### Volumes
 
@@ -48,9 +51,7 @@ no env
 
 ## Built With
 
-* List the software v0.1.3
-* And the version numbers v2.0.0
-* That are in this container v0.3.2
+...
 
 ## Find Us
 
