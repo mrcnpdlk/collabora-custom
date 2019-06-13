@@ -8,8 +8,8 @@ RUN mkdir /fonts-custom
 VOLUME ["/fonts-custom"]
 COPY /fonts /fonts-default
 
-ADD /scripts/customize.sh /
-RUN bash customize.sh
+ADD /scripts/start-custom.sh /
 
 # Entry point
-CMD bash start-libreoffice.sh
+CMD bash start-custom.sh
+
