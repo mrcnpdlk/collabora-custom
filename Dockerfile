@@ -4,6 +4,7 @@ MAINTAINER mrcnpdlk <mrcnpdlk@gmail.com>
 # Environments vars
 ENV TERM=xterm
 
+RUN mkdir /fonts-custom
 VOLUME ["/fonts-custom"]
 COPY /fonts /fonts-default
 
