@@ -7,7 +7,9 @@ ENV TERM=xterm
 RUN mkdir /fonts-custom
 VOLUME ["/fonts-custom"]
 
-ADD /fonts /fonts-default
+COPY /fonts /fonts-default
+
+RUN ls -la /
 
 RUN cp -r /fonts-custom/* /opt/collaboraoffice6.0/share/fonts/truetype/
 RUN cp -r /fonts-default/* /opt/collaboraoffice6.0/share/fonts/truetype/
