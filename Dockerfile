@@ -9,9 +9,6 @@ VOLUME ["/fonts-custom"]
 
 COPY /fonts /fonts-default
 
-RUN ls -la /
-RUN ls -la /opt/collaboraoffice6.0/share/fonts/
-
 RUN cp -r /fonts-custom /opt/collaboraoffice6.0/share/fonts/truetype/
 RUN cp -r /fonts-default /opt/collaboraoffice6.0/share/fonts/truetype/
 
