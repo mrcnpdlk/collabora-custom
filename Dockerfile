@@ -1,4 +1,4 @@
-FROM collabora/code:4.0.4.3
+FROM collabora/code:4.0.6.1
 MAINTAINER mrcnpdlk <mrcnpdlk@gmail.com>
 
 # Environments vars
