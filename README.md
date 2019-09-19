@@ -1,7 +1,7 @@
 # mrcnpdlk/collabora-custom
 
 Collabora image with fonts and pl_PL dictionary support.
-Project based on [collabora/code](https://hub.docker.com/r/collabora/code).
+Project based on [collabora/code](https://hub.docker.com/r/collabora/code) ver 4.0.6.1.
 
 ## Getting Started
 
