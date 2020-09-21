@@ -4,9 +4,9 @@ MAINTAINER mrcnpdlk <mrcnpdlk@gmail.com>
 # Environments vars
 ENV TERM=xterm
 
-RUN mkdir /fonts-custom
-VOLUME ["/fonts-custom"]
-COPY /fonts /fonts-default
+RUN mkdir -p /opt/fonts-custom
+VOLUME ["/opt/fonts-custom"]
+COPY /fonts /opt/fonts-default
 
 ADD /scripts/start-custom.sh /
 
