@@ -23,19 +23,19 @@ In order to run this container you'll need docker installed.
 List the different parameters available to your container
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.1.0 parameters
+docker run mrcnpdlk/collabora-custom:1.2.0 parameters
 ```
 
 One example per permutation 
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.1.0
+docker run mrcnpdlk/collabora-custom:1.2.0
 ```
 
 Show how to get a shell started in your container too
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.1.0 bash
+docker run mrcnpdlk/collabora-custom:1.2.0 bash
 ```
 
 #### Environment Variables
