@@ -4,7 +4,7 @@ cp -r /opt/fonts-custom/* /opt/collaboraoffice6.4/share/fonts/truetype/
 cp -r /opt/fonts-default/* /opt/collaboraoffice6.4/share/fonts/truetype/
 
 # dirty hack - adding pl_PL locale
-perl -pi -e "s/en_US/en_US pl_PL/g" /start-libreoffice.sh
+perl -pi -e "s/en_US/en_US pl_PL/g" /start-collabora-online.sh
 
 cd /
-bash start-libreoffice.sh
+bash start-collabora-online.sh
