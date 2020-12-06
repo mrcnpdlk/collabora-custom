@@ -1,7 +1,7 @@
 # mrcnpdlk/collabora-custom
 
 Collabora image with fonts and pl_PL dictionary support.
-Project based on [collabora/code](https://hub.docker.com/r/collabora/code) ver 4.2.6.2.
+Project based on [collabora/code](https://hub.docker.com/r/collabora/code) ver 6.4.2.2.
 
 ## Getting Started
 
@@ -23,26 +23,28 @@ In order to run this container you'll need docker installed.
 List the different parameters available to your container
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.2.0 parameters
+docker run mrcnpdlk/collabora-custom:1.3.0 parameters
 ```
 
 One example per permutation 
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.2.0
+docker run mrcnpdlk/collabora-custom:1.3.0
 ```
 
 Show how to get a shell started in your container too
 
 ```shell
-docker run mrcnpdlk/collabora-custom:1.2.0 bash
+docker run mrcnpdlk/collabora-custom:1.3.0 bash
 ```
 
 #### Environment Variables
+https://www.collaboraoffice.com/code/docker/
 
 * `domain` - regexp for domains which could connect do collabora service
 * `username`
 * `password`
+* `dictionaries`
 
 #### Volumes
 
